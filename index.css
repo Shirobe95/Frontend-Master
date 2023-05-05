@@ -1,3 +1,26 @@
 body{
-    background-color: azure;
+    background-color: rgb(224, 224, 224);
+}
+
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    border-radius: 5%;
+    width: 350px;
+    height: 500px;
+}
+
+img{
+    width: 350px;
+    border-radius: 5%;
+}
+
+h2{
+    letter-spacing: 2px;
+    font-weight: 200px;
 }
